@@ -1,0 +1,35 @@
+body{
+    background-color: #353535;
+    text-align: center;
+}
+
+.cabecera{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    height: 5rem;
+}
+
+.btn{
+    background-color: #a80014;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 4px; 
+    margin: auto;
+}
+
+.img{
+    margin: auto;
+    width: 100%;
+}
+
+.ingreso{
+    text-align: center;
+}
+
+p{
+    color: white;
+}

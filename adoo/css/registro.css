@@ -1,0 +1,90 @@
+body{
+    background-color: #202020;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    margin-top: 4rem;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+    height: auto;
+    max-width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+
+h5{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+}
+
+h6{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #b40000;
+    padding: 0.5rem;
+}
+
+
+.enviar{
+    display: block;
+    background-color: #b40000;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+button:hover{
+    background-color: #9e0000 !important;
+}
+
+
+
+/* Color blanco de los input */
+.input-field input + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: white !important;
+}
+
+
+/* Color azul de los input:focus */
+.input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: white!important;
+}
+
+.input-field input:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #b40000 !important;
+    box-shadow: 0 1px 0 0 #b40000 !important;
+}
+
+.active{
+    color: #b40000 !important;
+}  
+
+.contgra{
+    margin: auto;
+    text-align: center;
+}
+
+.cont{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    margin: 4rem;
+}
+
+.gra{
+    height: 300px; 
+}
