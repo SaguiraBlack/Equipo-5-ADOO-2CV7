@@ -29,6 +29,12 @@ h5{
     font-size: 150%;
 }
 
+p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
 h6{
     text-align: center;
     color: #ffffff;
