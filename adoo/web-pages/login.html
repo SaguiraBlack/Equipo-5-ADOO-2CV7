@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="../css/registro.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="principal">
+    <div class="container">
+      <div class="row">
+        <div class="wrapper col m12 s12 formulario">
+          <form class="login" name="inicio" id="inicioSesion" onSubmit="return false;">
+            <img src="../img/lml.png" class="logo" alt="lml"><br>
+            <p class="titulo">INICIA COMO ADMINISTRADOR</p>
+              <div class="input-field col s11">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input type="text" name="usuario" size="18" maxlength="18" class="validate" id="usuario" required>
+                  <label for="usuario">Usuario</label>
+                  <span class="helper-text" data-error="Campo obligatorio"></span>
+              </div>
+              <div class="input-field col s11">
+                  <i class="material-icons prefix">lock</i>
+                  <input type="password" name="contra" size="18" maxlength="18" class="validate" id="pass" required>
+                  <label for="pass">Contraseña</label>
+                  <span class="helper-text" data-error="Campo obligatorio"></span>
+              </div>
+              <button class="btn waves-effect waves-light enviar" type="submit" name="Submit" value="Enviar" id="sentbutton" onClick="enviaFalso()">
+                  Iniciar sesión
+                  <i class="material-icons right">send</i>
+              </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="../javascript/index.js"></script>
+</body> 
+</html>
